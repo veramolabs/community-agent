@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    ports:
+      - "3332:3332"
+    environment:
+      DEBUG: veramo*
+      PORT: 3332
+    command: ["yarn", "veramo", "server", "--config=/config/agent-local.yml"]
+    volumes:
+      - ./config:/config

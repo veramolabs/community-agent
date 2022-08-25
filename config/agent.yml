@@ -198,6 +198,18 @@ server:
           - swaggerOptions:
               url: "/public-open-api.json"
 
+    # Agent explorer
+    - - '/'
+      - $require: express#static
+        $args:
+          - node_modules/agent-explore/build
+
+    - - '/'
+      - $require: express-history-api-fallback
+        $args:
+          - index.html
+          - root: node_modules/agent-explore/build
+
 
   # Execute during server initialization
   init:

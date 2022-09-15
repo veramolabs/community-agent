@@ -29,6 +29,10 @@
       "MESSAGING_PATH": {
         "description": "The messaging endpoint for your agent",
         "value": "/messaging"
+      },
+      "PUBLIC_SCHEMA_URL": {
+        "description": "The url for the public read-only schema",
+        "value": "https://APP_NAME.herokuapp.com/public-open-api.json"
       }
     }
   }

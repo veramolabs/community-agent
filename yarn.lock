@@ -1588,10 +1588,10 @@ agent-base@6, agent-base@^6.0.2:
   dependencies:
     debug "4"
 
-agent-explore@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/agent-explore/-/agent-explore-1.5.0.tgz#b804e2b3129c6e8370c444acbe105aef4b474820"
-  integrity sha512-wO+Rj9P+mLEiisDEZbJnhsEj3lDKzsxkPhkoppWY3CzJ5/x0InaZ3qCDHHZ2fLExPo3pHzagGnAT6PkwpFfpyA==
+agent-explore@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/agent-explore/-/agent-explore-1.6.0.tgz#e534c1ab911a537918d0d275aea98207b7ed6b02"
+  integrity sha512-q2TJnf9I4kdn5U7gJoHF9R5WWzoprEIvjU4QJN2HvDQeNo6XgD0jq1nT7b2aY9+KSKnNhmJyDJpeffiQ+airyw==
   dependencies:
     commander "^7.0.0"
     express "^4.17.1"
@@ -2487,11 +2487,6 @@ express-handlebars@^6.0.2:
     glob "^8.0.2"
     graceful-fs "^4.2.10"
     handlebars "^4.7.7"
-
-express-history-api-fallback@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/express-history-api-fallback/-/express-history-api-fallback-2.2.1.tgz#3a2ad27f7bebc90fc533d110d7c6d83097bcd057"
-  integrity sha512-swxwm3aP8vrOOvlzOdZvHlSZtJGwHKaY94J6AkrAgCTmcbko3IRwbkhLv2wKV1WeZhjxX58aLMpP3atDBnKuZg==
 
 express@^4.17.1, express@^4.17.2:
   version "4.18.1"

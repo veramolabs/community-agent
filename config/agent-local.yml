@@ -133,16 +133,11 @@ server:
               url: "/open-api.json"
 
     # Agent explorer
-    - - '/'
-      - $require: express#static
+    - - $require: agent-explore?t=function#ExplorerRouter
         $args:
-          - node_modules/agent-explore/build
-
-    - - '/'
-      - $require: express-history-api-fallback
-        $args:
-          - index.html
-          - root: node_modules/agent-explore/build
+          - - schemaUrl: http://localhost:3332/open-api.json
+              apiKey: test123
+              name: Local
 
 
   # Execute during server initialization

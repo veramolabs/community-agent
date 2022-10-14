@@ -82,8 +82,6 @@ constants:
     - dataStoreGetVerifiablePresentation
     - dataStoreORMGetIdentifiers
     - dataStoreORMGetIdentifiersCount
-    - dataStoreORMGetMessages
-    - dataStoreORMGetMessagesCount
     - dataStoreORMGetVerifiableCredentialsByClaims
     - dataStoreORMGetVerifiableCredentialsByClaimsCount
     - dataStoreORMGetVerifiableCredentials

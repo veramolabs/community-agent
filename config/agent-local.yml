@@ -7,58 +7,25 @@ constants:
   databaseFile: ./db/database.sqlite
   methods:
     - keyManagerGetKeyManagementSystems
-    - keyManagerCreate
-    - keyManagerGet
-    - keyManagerDelete
-    - keyManagerImport
-    - keyManagerEncryptJWE
-    - keyManagerDecryptJWE
-    - keyManagerSign
-    - keyManagerSharedSecret
-    - keyManagerSignJWT
-    - keyManagerSignEthTX
     - didManagerGetProviders
     - didManagerFind
     - didManagerGet
-    - didManagerCreate
-    - didManagerGetOrCreate
-    - didManagerImport
-    - didManagerDelete
-    - didManagerAddKey
-    - didManagerRemoveKey
-    - didManagerAddService
-    - didManagerRemoveService
     - resolveDid
     - getDIDComponentById
     - discoverDid
     - dataStoreGetMessage
-    - dataStoreSaveMessage
     - dataStoreGetVerifiableCredential
-    - dataStoreSaveVerifiableCredential
     - dataStoreGetVerifiablePresentation
-    - dataStoreSaveVerifiablePresentation
     - dataStoreORMGetIdentifiers
     - dataStoreORMGetIdentifiersCount
-    - dataStoreORMGetMessages
-    - dataStoreORMGetMessagesCount
     - dataStoreORMGetVerifiableCredentialsByClaims
     - dataStoreORMGetVerifiableCredentialsByClaimsCount
     - dataStoreORMGetVerifiableCredentials
     - dataStoreORMGetVerifiableCredentialsCount
     - dataStoreORMGetVerifiablePresentations
     - dataStoreORMGetVerifiablePresentationsCount
-    - handleMessage
-    - packDIDCommMessage
-    - unpackDIDCommMessage
-    - sendDIDCommMessage
-    - sendMessageDIDCommAlpha1
-    - createVerifiableCredential
-    - createVerifiablePresentation
     - verifyCredential
     - verifyPresentation
-    - createSelectiveDisclosureRequest
-    - getVerifiableCredentialsForSdr
-    - validatePresentationAgainstSdr
 
 # Data base
 dbConnection:

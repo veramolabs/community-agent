@@ -12,6 +12,5 @@
   "dependencies": {
     "@veramo/cli": "^4.0.2",
     "agent-explore": "^1.8.0"
-  },
-  "packageManager": "yarn@3.2.4"
+  }
 }

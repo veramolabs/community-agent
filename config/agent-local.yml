@@ -206,6 +206,7 @@ messageHandler:
         - $require: "@veramo/did-jwt#JwtMessageHandler"
         - $require: "@veramo/credential-w3c#W3cMessageHandler"
         - $require: "@veramo/selective-disclosure#SdrMessageHandler"
+        - $require: "did-comm-brainshare#BrainShareMessageHandler"
 
 # DID resolvers
 didResolver:

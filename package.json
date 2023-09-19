@@ -6,11 +6,11 @@
   "author": "simonas.karuzas@mesh.xyz",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "NODE_ENV=production pnpm veramo server --config=./config/agent.yml",
-    "dev": "pnpm veramo server --config=./config/agent-local.yml"
+    "start": "NODE_ENV=production veramo server --config=./config/agent.yml",
+    "dev": "veramo server --config=./config/agent-local.yml"
   },
   "dependencies": {
-    "@veramo/cli": "^5.1.2",
-    "agent-explore": "^1.11.0"
+    "@veramo/cli": "^5.4.2-next.27",
+    "agent-explore": "^1.33.0"
   }
 }

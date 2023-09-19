@@ -1,7 +1,7 @@
 version: 3.0
 
 constants:
-  baseUrl: https://discordbot.eu.ngrok.io
+  baseUrl: https://changeme.ngrok.app
   port: 3332
   secretKey: 29739248cad1bd1a0fc4d9b75cd4d2990de535baf5caadfdf8d8f86664aa830c
   databaseFile: ./db/database.sqlite
@@ -104,7 +104,7 @@ server:
     $ref: /constants/port
   use:
     # CORS
-    - - $require: "cors"
+    - - $require: "cors?t=function#default"
 
     # Add agent to the request object
     - - $require: "@veramo/remote-server?t=function#RequestWithAgentRouter"
@@ -139,7 +139,7 @@ server:
         $args:
           - basePath: /agent
             securityScheme: bearer
-            apiName: Agent
+            apiName: Veramo community admin
             apiVersion: "1.0.0"
             exposedMethods:
               $ref: /constants/methods
@@ -166,7 +166,7 @@ server:
       - $require: "@veramo/remote-server?t=function#ApiSchemaRouter"
         $args:
           - basePath: "/public-agent"
-            apiName: Public agent
+            apiName: Veramo community
             apiVersion: "1.0.0"
             exposedMethods:
               $ref: /constants/readOnlyMethods
@@ -183,8 +183,8 @@ server:
     # Agent explorer
     - - $require: agent-explore?t=function#ExplorerRouter
         $args:
-          - - schemaUrl: https://discordbot.eu.ngrok.io/public-open-api.json
-              name: Local
+          - - schemaUrl: https://changeme.ngrok.app/public-open-api.json
+              name: Veramo community
 
 
   # Execute during server initialization

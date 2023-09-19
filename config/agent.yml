@@ -117,7 +117,7 @@ server:
     $ref: /constants/port
   use:
     # CORS
-    - - $require: "cors"
+    - - $require: "cors?t=function#default"
 
     # Add agent to the request object
     - - $require: "@veramo/remote-server?t=function#RequestWithAgentRouter"
@@ -155,7 +155,7 @@ server:
           - basePath:
               $ref: /constants/agentPath
             securityScheme: bearer
-            apiName: Agent
+            apiName: Veramo community admin
             apiVersion: "1.0.0"
             exposedMethods:
               $ref: /constants/methods
@@ -182,7 +182,7 @@ server:
       - $require: "@veramo/remote-server?t=function#ApiSchemaRouter"
         $args:
           - basePath: "/public-agent"
-            apiName: Public agent
+            apiName: Veramo community
             apiVersion: "1.0.0"
             exposedMethods:
               $ref: /constants/readOnlyMethods

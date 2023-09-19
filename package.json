@@ -1,16 +1,16 @@
 {
   "name": "veramo-agent-deploy",
   "version": "1.0.0",
-  "description": "General purpose Veramo Agent configuration deployments",
+  "description": "Veramo community agent",
   "repository": "https://github.com/uport-project/veramo-agent-deploy",
-  "author": "jason.healy@mesh.xyz",
+  "author": "simonas.karuzas@mesh.xyz",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "NODE_ENV=production yarn veramo server --config=./config/agent.yml",
-    "dev": "yarn veramo server --config=./config/agent-local.yml"
+    "start": "NODE_ENV=production veramo server --config=./config/agent.yml",
+    "dev": "veramo server --config=./config/agent-local.yml"
   },
   "dependencies": {
-    "@veramo/cli": "^4.0.2",
-    "agent-explore": "^1.8.0"
+    "@veramo/cli": "^5.4.2-next.27",
+    "agent-explore": "^1.33.0"
   }
 }

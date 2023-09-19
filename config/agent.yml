@@ -197,7 +197,7 @@ server:
               url: "/public-open-api.json"
 
     # Agent explorer
-    - - $require: agent-explore/express-router?t=function#ExplorerRouter
+    - - $require: agent-explore?t=function#ExplorerRouter
         $args:
           - - schemaUrl: 
                 $env: PUBLIC_SCHEMA_URL

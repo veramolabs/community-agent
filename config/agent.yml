@@ -45,6 +45,7 @@ constants:
     - dataStoreSaveMessage
     - dataStoreGetVerifiableCredential
     - dataStoreSaveVerifiableCredential
+    - dataStoreDeleteVerifiableCredential
     - dataStoreGetVerifiablePresentation
     - dataStoreSaveVerifiablePresentation
     - dataStoreORMGetIdentifiers

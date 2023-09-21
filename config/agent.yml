@@ -239,6 +239,8 @@ didResolver:
               $ref: /web-did-resolver
             key:
               $ref: /did-key-resolver
+            peer:
+              $require: '@veramo/did-provider-peer?t=function&p=/peer#getResolver'
             elem:
               $ref: /universal-resolver
             io:

@@ -10,8 +10,8 @@
     "dev": "veramo server --config=./config/agent-local.yml"
   },
   "dependencies": {
-    "@veramo/cli": "^5.5.2-next.8",
-    "agent-explore": "^1.34.0",
+    "@veramo/cli": "^5.5.3-next.17",
+    "agent-explore": "^1.48.0",
     "did-comm-brainshare": "^1.0.18"
   }
 }

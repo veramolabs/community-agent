@@ -250,6 +250,8 @@ didResolver:
               $ref: /universal-resolver
             sov:
               $ref: /universal-resolver
+            pkh:
+              $ref: /universal-resolver
 
 ethr-did-resolver:
   $require: ethr-did-resolver?t=function&p=/ethr#getResolver

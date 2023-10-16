@@ -231,7 +231,7 @@ didResolver:
             sov:
               $ref: /universal-resolver
             pkh:
-              $ref: /universal-resolver
+              $require: '@veramo/did-provider-pkh?t=function&p=/pkh#getDidPkhResolver'
 
 ethr-did-resolver:
   $require: ethr-did-resolver?t=function&p=/ethr#getResolver

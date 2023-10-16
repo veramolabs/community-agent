@@ -60,6 +60,7 @@ constants:
     - createSelectiveDisclosureRequest
     - getVerifiableCredentialsForSdr
     - validatePresentationAgainstSdr
+    - listUsableProofFormats
   readOnlyMethods:
     - keyManagerGetKeyManagementSystems
     - didManagerGetProviders

@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@veramo/cli": "5.5.4-next.20",
-    "agent-explore": "^1.61.3",
+    "agent-explore": "^1.61.6",
     "did-comm-brainshare": "^1.0.18"
   }
 }

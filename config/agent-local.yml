@@ -120,6 +120,7 @@ server:
           - metaData:
               type: DIDComm
               value: https
+            save: false
 
     # API base path
     - - /agent

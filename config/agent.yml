@@ -133,6 +133,7 @@ server:
           - metaData:
               type: DIDComm
               value: https
+            save: false
 
     # ADMIN API
     # API base path

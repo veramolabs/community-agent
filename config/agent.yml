@@ -227,7 +227,7 @@ messageHandler:
         - $require: "./plugins/saveMessageHandler.js#SaveMessageHandler"
           $args:
             - types:
-              - 'veramo.io-chat-v1'
+              - 'https://didcomm.org/basicmessage/2.0/message'
 
 # DID resolvers
 didResolver:

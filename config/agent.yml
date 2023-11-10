@@ -223,10 +223,11 @@ messageHandler:
         - $require: "@veramo/did-jwt#JwtMessageHandler"
         - $require: "@veramo/credential-w3c#W3cMessageHandler"
         - $require: "@veramo/selective-disclosure#SdrMessageHandler"
-        # - $require: "./plugins/saveMessageHandler.js#SaveMessageHandler"
-        #   $args:
-        #     - types:
-        #       - 'veramo.io-chat-v1'
+        - $require: "@veramo-community/did-comm-brainshare#BrainShareMessageHandler"
+        - $require: "./plugins/saveMessageHandler.js#SaveMessageHandler"
+          $args:
+            - types:
+              - 'veramo.io-chat-v1'
 
 # DID resolvers
 didResolver:

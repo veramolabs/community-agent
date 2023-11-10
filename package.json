@@ -11,8 +11,9 @@
     "dev": "veramo server --config=./config/agent-local.yml"
   },
   "dependencies": {
-    "@veramo-community/did-comm-brainshare": "^1.0.1",
-    "@veramo/cli": "5.5.4-next.22",
-    "agent-explore": "^1.68.2"
+    "@veramo-community/did-comm-brainshare": "1.1.0",
+    "@veramo/cli": "5.5.4-next.23",
+    "@veramo/message-handler": "5.5.4-next.23",
+    "agent-explore": "^1.70.0"
   }
 }
